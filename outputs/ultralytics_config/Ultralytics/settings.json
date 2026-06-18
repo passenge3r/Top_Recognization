@@ -1,0 +1,21 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "C:\\Users\\HP\\Desktop\\Top_Recognization\\datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "8d54b8ce4372bbe4a7af755c72baf133270e7dd91b047ae68af9c260050c8b67",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true,
+  "openvino_msg": true
+}
