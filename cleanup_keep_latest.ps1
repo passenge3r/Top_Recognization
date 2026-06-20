@@ -8,13 +8,21 @@ $Root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $Root = [System.IO.Path]::GetFullPath($Root)
 
 $KeepRelativeFiles = @(
+    ".agents",
+    ".git",
+    "README.md",
     "top_angle_estimator.py",
+    "train_top_angle_model.py",
     "TOP_ANGLE_USAGE.md",
     "preprocess_interface.py",
     "top_best.pt",
     "side_best.pt",
     "cleanup_keep_latest.ps1",
     "outputs\top_angle_resnet50_retrained_300_best.pth",
+    "outputs\top_angle_full_300_log.csv",
+    "outputs\top_angle_full_300_split.csv",
+    "outputs\top_angle_predictions_after_full300.csv",
+    "outputs\compare_ai_full_300_best.csv",
     "outputs\ultralytics_config\Ultralytics\settings.json",
     "outputs\ultralytics_config\Ultralytics\persistent_cache.json",
     "outputs\opencv_refined_all.csv"

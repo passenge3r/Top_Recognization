@@ -1,0 +1,10 @@
+__pycache__/
+.git_empty_backup/
+outputs/_smoke_*
+outputs/debug_roi_*
+outputs/compare_ai_top_best*.csv
+outputs/compare_opencv_top_best*.csv
+outputs/ai_t*.csv
+outputs/opencv_t*.csv
+data_samples/video/
+data_samples/top_test/roi/
